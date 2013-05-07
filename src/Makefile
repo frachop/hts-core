@@ -1,5 +1,5 @@
 # defined in environment variables
-#DEBUG:=yes
+# DEBUG:=yes
 
 CC:=clang++
 AR:=ar -r 
