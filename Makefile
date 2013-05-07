@@ -1,4 +1,4 @@
-#master makefile
+# master makefile
 
 all:
 	make all -C src
