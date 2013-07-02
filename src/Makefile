@@ -1,7 +1,13 @@
 # defined in environment variables
 #DEBUG:=yes
+MACOS:=yes
 
-CC:=clang++
+ifeq ($(MACOS),yes)
+	CC:=clang++
+else
+	CC:=g++
+endif
+
 AR:=ar -r 
 PROJECT_LOC:=..
 WORKSPACE_LOC:=$(PROJECT_LOC)/..
