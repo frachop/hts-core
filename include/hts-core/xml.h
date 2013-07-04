@@ -150,7 +150,7 @@ namespace xml {
 		xmlDocPtr create(const std::string & version="1.0", const std::string & encoding="" );
 
 	public:
-		CNode getRoot();
+		CNode getRoot() const;
 		CNode setRoot(const CNode & root);// Returns:	the old root element if any was found, NULL if root was NULL
 
 		virtual bool load(const std::string & nomFichier);

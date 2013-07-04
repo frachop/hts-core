@@ -382,7 +382,7 @@ namespace xml {
 	}
 
 
-	CNode CDoc::getRoot() {
+	CNode CDoc::getRoot() const {
 		return CNode( xmlDocGetRootElement(m_doc) );
 	}
 
