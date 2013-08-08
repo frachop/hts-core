@@ -25,6 +25,8 @@
 #include <fstream>
 #include <cmath>
 #include <cassert>
+#include <stdint.h>
+#include <memory>
 
 /*/////////////////////////////////////////////////////////////////////*/
 /*! @name Assertion statique

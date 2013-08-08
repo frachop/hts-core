@@ -2,6 +2,7 @@
 
 #ifndef NDEBUG
 #define DUMPOK 0
+#include <typeinfo>
 #else
 #define DUMPOK 0
 #endif
@@ -155,8 +156,6 @@ namespace HTS_NAMESPACE {
 			return it->second;
 		return "";
 	}
-
-	#include <typeinfo>
 
 	void dumpObservable(std::ostream & out, const CObservable * pObservable)
 	{
